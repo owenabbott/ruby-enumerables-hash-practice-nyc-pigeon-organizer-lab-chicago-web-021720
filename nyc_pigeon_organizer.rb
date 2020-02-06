@@ -31,7 +31,7 @@ for a in pidgeon_names
       value.each do |data, name|
         for x in name
           if a == x 
-            pidgy[a][data]="testing!"
+            pidgy[a][key]="Testing!"
           end
         end
       end
