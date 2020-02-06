@@ -51,7 +51,7 @@ data.each do |key, value|
       for b in pidgeon_names
         for a in name
           if b == a
-            pidgeon_colors[pidgeon_names.index(b)].push(color)
+            pidgeon_colors[pidgeon_names.index(b)].push(color.to_s)
           end
         end
       end
@@ -61,7 +61,7 @@ end
 pp pidgeon_colors
 
 for a in pidgeon_names
-  pidgy[a][:color]=pidgeon_colors[pidgeon_names.index(a)].to_s
+  pidgy[a][:color]=pidgeon_colors[pidgeon_names.index(a)]
 end
 pp pidgy
 return pidgy
