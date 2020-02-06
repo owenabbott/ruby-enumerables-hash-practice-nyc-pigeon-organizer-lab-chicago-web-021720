@@ -3,8 +3,7 @@ def nyc_pigeon_organizer(data)
   pidgy = Hash.new
   data.each do |key, value|
     if key == :color
-      value.each do |name, color|
-        pidgy[name]=color
+        pidgy[name]=value
       end
     end
     
