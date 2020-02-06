@@ -13,7 +13,7 @@ end
   pidgy.each do |key, value|
     pidgeon_names.push (key)
   end
-pp pidgeon_names
+#pp pidgeon_names
   
   for name in pidgeon_names
   pidgeon_colors.push([])
