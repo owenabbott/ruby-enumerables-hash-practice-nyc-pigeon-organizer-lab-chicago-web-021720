@@ -15,6 +15,13 @@ end
   end
 pp pidgeon_names
   
+  for name in pidgeon_names
+  pidgeon_colors.push([])
+  pidgeon_genders.push([])
+  pidgeon_homes.push([])
+end
+pp pidgeon_colors
+  
 end
 
 
