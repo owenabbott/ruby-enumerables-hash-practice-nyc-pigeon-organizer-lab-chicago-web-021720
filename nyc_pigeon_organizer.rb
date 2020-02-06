@@ -63,6 +63,7 @@ pp pidgeon_colors
 for a in pidgeon_names
   pidgy[a][:color]=pidgeon_colors[pidgeon_names.index(a)]
 end
+pp pidgy
 return pidgy
 end
 
