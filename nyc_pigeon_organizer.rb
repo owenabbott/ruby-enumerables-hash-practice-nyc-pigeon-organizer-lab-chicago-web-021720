@@ -11,20 +11,23 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |data, name|
       for i in name
-      pidgy[i]={}
+      pidgy[i]={key}
     end
   end
 end
+#creates a hash where each key is a pidgeon name
 pp pidgy
 
 pidgy.each do |key, value|
   pidgeon_names.push(key)
-end
-  
-  for name in pidgeon_names
   pidgeon_colors.push([])
   pidgeon_genders.push([])
   pidgeon_homes.push([])
+end
+#creates a list of pidgeon names and lists of lists for each data attribute.
+
+
+
 end
 pp pidgeon_names
   
