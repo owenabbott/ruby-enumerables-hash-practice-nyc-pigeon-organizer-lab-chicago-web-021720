@@ -32,6 +32,7 @@ for a in pidgeon_names
         for x in name
           if a == x 
             pidgeon_colors[pidgeon_names.index(a)].push(data)
+          end
         end
       end
     end
