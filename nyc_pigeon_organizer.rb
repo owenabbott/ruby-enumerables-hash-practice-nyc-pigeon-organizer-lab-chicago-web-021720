@@ -40,7 +40,7 @@ for a in pidgeon_names
 end
 #It's 1am and I just wrote this code five seconds ago and I don't even know if I can explain how it works. also I think I could have done it in the earlier loop.
 #anyway I have all the data I need figured out, except color, which needs to be an array and is instead a string. 
-
+pp pidgy
   
 end
 
