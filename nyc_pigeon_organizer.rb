@@ -9,9 +9,11 @@ def nyc_pigeon_organizer(data)
    pidgy=Hash.new
 
   data.each do |key, value|
-    pp value
+    value.each do |data, name|
+      pidgy[name]={}
   end
-
+end
+pp pidgy
   
 #  for name in pidgeon_names
 #  pidgeon_colors.push([])
