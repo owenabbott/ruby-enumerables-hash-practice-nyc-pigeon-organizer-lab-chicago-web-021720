@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
    pidgy=Hash.new
 
   data.each do |key, value|
-    pp key
+    pp value
   end
 
   
