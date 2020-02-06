@@ -26,12 +26,12 @@ end
 #creates a list of pidgeon names and lists of lists for each data
 
 for a in pidgeon_names
-  for b in pidgeon_colors
+  for b in pidgeon_data
     data.each do |key, value|
       value.each do |data, name|
         for x in name
           if a == x 
-            pidgeon_colors[pidgeon_names.index(a)].push(data)
+            pidgeon_data[pidgeon_names.index(a)].push(data)
           end
         end
       end
