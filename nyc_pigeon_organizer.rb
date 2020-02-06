@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   pidgeon_genders = []
   pidgeon_homes = []
   pidgeon_names = []
-  
+  pp data
    pidgy=Hash.new
    data.each do |key, value|
     for i in key
