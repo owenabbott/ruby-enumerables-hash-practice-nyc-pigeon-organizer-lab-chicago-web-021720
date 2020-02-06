@@ -29,8 +29,9 @@ for a in pidgeon_names
   for b in pidgeon_colors
     data.each do |key, value|
       value.each do |data, name|
-        if a in name
-          pidgeon_colors[pidgeon_names.index(a)].push(data)
+        for x in name
+          if a == x 
+            pidgeon_colors[pidgeon_names.index(a)].push(data)
         end
       end
     end
