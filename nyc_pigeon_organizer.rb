@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
-pp pidgy
+#pp pidgy
 
 pidgy.each do |key, value|
   pidgeon_names.push(key)
@@ -41,7 +41,7 @@ end
 #It's 1am and I just wrote this code five seconds ago and I don't even know if I can explain how it works. also I think I could have done it in the earlier loop.
 #anyway I have all the data I need figured out, except color, which needs to be an array and is instead a string. 
 #also I don't know why I made so many arrays of arrays earlier, or why I decided to include "for b in pidgeon colors," so maybe I should go to sleep before I break what I have.
-pp pidgy
+#pp pidgy
   
 
 
@@ -55,7 +55,7 @@ data.each do |key, value|
       end
     end
   end
-
+end
 pp pidgeon_colors
 
 end
