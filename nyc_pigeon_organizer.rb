@@ -7,8 +7,7 @@ def nyc_pigeon_organizer(data)
         pidgy[name]=>[].push(color)
       end
     end
-  end
-end
+  
 pp pidgy
   
 end
