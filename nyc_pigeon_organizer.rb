@@ -26,7 +26,7 @@ end
   pidgeon_genders.push([])
   pidgeon_homes.push([])
 end
-pp pidgeon_colors
+pp pidgeon_names
   
 end
 
