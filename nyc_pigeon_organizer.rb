@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   pidgeon_homes = []
   pidgeon_names = []
   
-   pp data.class
+    data.classpp
    data.each do |key, value|
     for i in key
     pidgy[i]={}
