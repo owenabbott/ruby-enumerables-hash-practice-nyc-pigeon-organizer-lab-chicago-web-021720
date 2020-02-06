@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
    data.each do |key, value|
     for i in key
     pp i
-    pidgy[i]={}
+  #  pidgy[i]={}
   end
 end
   pidgy.each do |key, value|
