@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
 #  pp data
-  pidgeon_colors = []
+  pidgeon_data = []
   pidgeon_genders = []
   pidgeon_homes = []
   pidgeon_names = []
@@ -19,7 +19,7 @@ pp pidgy
 
 pidgy.each do |key, value|
   pidgeon_names.push(key)
-  pidgeon_colors.push([])
+  pidgeon_data.push([])
   pidgeon_genders.push([])
   pidgeon_homes.push([])
 end
