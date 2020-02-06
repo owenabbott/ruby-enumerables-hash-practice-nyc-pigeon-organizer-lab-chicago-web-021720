@@ -1,13 +1,19 @@
 def nyc_pigeon_organizer(data)
 #  pp data
-  pidgy = Hash.new
-  data.each do |key, value|
-    if key == :color
-        pidgy[name]=value
-      end
-    end
-    
-pp pidgy
+  pidgeon_colors = []
+  pidgeon_genders = []
+  pidgeon_homes = []
+  pidgeon_names = []
+  
+   data.each do |key, value|
+    for i in key
+    pidgy[i]={}
+  end
+end
+  pidgy.each do |key, value|
+    pidgeon_names.push (key)
+  end
+pp pidgeon_names
   
 end
 
