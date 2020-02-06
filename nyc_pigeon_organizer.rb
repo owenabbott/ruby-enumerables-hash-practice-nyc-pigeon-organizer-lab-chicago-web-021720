@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     if key == :color 
       key.each do |color, name|
-        pidgy[name]=>[].push(color)
+        pidgy[name]=>[color]
       end
     end
   
