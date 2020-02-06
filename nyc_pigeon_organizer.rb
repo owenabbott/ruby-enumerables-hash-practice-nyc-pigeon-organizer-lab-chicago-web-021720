@@ -26,9 +26,18 @@ end
 #creates a list of pidgeon names and lists of lists for each data
 
 for a in pidgeon_names
-  pidgeon_colors=[]
+  for b in pidgeon_colors
+    data.each do |key, value|
+      value.each do |data, name|
+        if a in name
+          pidgeon_colors[pidgeon_names.index(a)].push(data)
+        end
+      end
+    end
+  end
+end
 
-pp pidgeon_names
+pp pidgeon_colors
   
 end
 
