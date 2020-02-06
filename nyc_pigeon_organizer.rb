@@ -15,7 +15,6 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
-#creates a hash where each key is a pidgeon name
 pp pidgy
 
 pidgy.each do |key, value|
@@ -24,9 +23,7 @@ pidgy.each do |key, value|
   pidgeon_genders.push([])
   pidgeon_homes.push([])
 end
-#creates a list of pidgeon names and lists of lists for each data attribute.
-
-
+#creates a list of pidgeon names and lists of lists for each data
 
 end
 pp pidgeon_names
