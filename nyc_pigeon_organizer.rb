@@ -43,7 +43,7 @@ end
 #also I don't know why I made so many arrays of arrays earlier, or why I decided to include "for b in pidgeon colors," so maybe I should go to sleep before I break what I have.
 pp pidgy
   
-end
+
 
 data.each do |key, value|
   value.each do |color, name|
@@ -58,7 +58,7 @@ data.each do |key, value|
 end
 pp pidgeon_colors
 
-
+end
 
 #saving my tentatively working code in comment mode so I can  copy and paste it if I destroy it later as I edit:
 
