@@ -31,7 +31,7 @@ for a in pidgeon_names
       value.each do |data, name|
         for x in name
           if a == x 
-            pidgeon_colors[pidgeon_names.index(a)].push(data)
+            pidgy[a]=datapidgeon_colors[pidgeon_names.index(a)].push(data)
           end
         end
       end
