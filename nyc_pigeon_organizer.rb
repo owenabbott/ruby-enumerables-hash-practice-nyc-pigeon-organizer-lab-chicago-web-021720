@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
    pidgy=Hash.new
 
   data.each do |key, value|
-    pp data
+    pp key
   end
 
   
@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
 #  pidgeon_genders.push([])
 #  pidgeon_homes.push([])
 #end
-pp pidgeon_colors
+3pp pidgeon_colors
   
 end
 
