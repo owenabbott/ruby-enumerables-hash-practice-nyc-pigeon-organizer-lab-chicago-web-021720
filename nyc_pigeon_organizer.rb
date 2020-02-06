@@ -40,11 +40,23 @@ for a in pidgeon_names
 end
 #It's 1am and I just wrote this code five seconds ago and I don't even know if I can explain how it works. also I think I could have done it in the earlier loop.
 #anyway I have all the data I need figured out, except color, which needs to be an array and is instead a string. 
+#also I don't know why I made so many arrays of arrays earlier, or why I decided to include "for b in pidgeon colors," so maybe I should go to sleep before I break what I have.
 pp pidgy
   
 end
 
-
+data.each do |key, value|
+  value.each do |color, name|
+    for b in pidgeon_names
+      for a in color
+        if b == a
+          pidgeon_colors[pidgeon_names.index(b)].push(color)
+        end
+      end
+    end
+  end
+end
+pp pidgeon_colors
 
 
 
