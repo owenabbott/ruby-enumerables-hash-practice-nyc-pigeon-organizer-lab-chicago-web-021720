@@ -13,9 +13,9 @@ def nyc_pigeon_organizer(data)
   #  pidgy[i]={}
   end
 end
-  pidgy.each do |key, value|
-    pidgeon_names.push (key)
-  end
+#  pidgy.each do |key, value|
+#    pidgeon_names.push (key)
+#  end
 #pp pidgeon_names
   
   for name in pidgeon_names
