@@ -26,20 +26,21 @@ end
 #creates a list of pidgeon names and lists of lists for each data
 
 for a in pidgeon_names
-  for b in pidgeon_colors
     data.each do |key, value|
       value.each do |data, name|
         for x in name
           if a == x 
             pidgy[a][key]=data
-          end
+          
         end
       end
     end
   end
 end
+#It's 1am and I just wrote this code five seconds ago and I don't even know if I can explain how it works. also I think I could have done it in the earlier loop.
+#anyway I have all the data I need figured out, except color, which needs to be an array and is instead a string. 
 
-pp pidgy
+
 
   
 end
