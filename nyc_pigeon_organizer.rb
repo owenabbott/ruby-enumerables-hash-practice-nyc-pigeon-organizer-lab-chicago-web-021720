@@ -60,6 +60,10 @@ data.each do |key, value|
 end
 pp pidgeon_colors
 
+for a in pidgeon_names
+  for b in pidgeon_colors
+    pidgy[a][:color]=b
+
 end
 
 #saving my tentatively working code in comment mode so I can  copy and paste it if I destroy it later as I edit:
