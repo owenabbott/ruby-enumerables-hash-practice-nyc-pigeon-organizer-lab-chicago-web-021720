@@ -46,11 +46,13 @@ end
 
 
 data.each do |key, value|
-  value.each do |color, name|
-    for b in pidgeon_names
-      for a in name
-        if b == a
-          pidgeon_colors[pidgeon_names.index(b)].push(color)
+  if key == :color
+    value.each do |color, name|
+      for b in pidgeon_names
+        for a in name
+          if b == a
+            pidgeon_colors[pidgeon_names.index(b)].push(color)
+          end
         end
       end
     end
